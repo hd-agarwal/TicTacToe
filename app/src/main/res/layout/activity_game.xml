@@ -151,7 +151,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_weight="5"
-            android:textSize="25sp"
+            android:textSize="30sp"
             tools:text="Player name" />
 
         <TextView

@@ -184,7 +184,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
     private fun updateValue(row: Int, col: Int, p: Int) {
         count++
         gameBoard[row][col].apply {
-            textSize=32f
+            textSize=50f
             if(colors[player]==0)
                 setTextColor(getColor(R.color.darkBlue))
             else
